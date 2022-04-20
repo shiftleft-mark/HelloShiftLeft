@@ -1,4 +1,4 @@
-# This workflow integrates ShiftLeft NG SAST with GitHub
+# This workflow integrates ShiftLeft NG SAST with GitHub - added build rules
 # Visit https://docs.shiftleft.io for help
 # Adding a comment here to make a change
 name: ShiftLeft
