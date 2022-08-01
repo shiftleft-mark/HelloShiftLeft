@@ -1,0 +1,18 @@
+ngsast:
+- app:
+    name: shiftleft-config
+    language: JAVA
+    modify-findings:
+      - open_redirect_modification_rule
+finding-modifications:
+  open_redirect_modification_rule:
+    filter:
+      category:
+        - Header Injection
+    tags:
+      - key: cvss_score
+        value: 8
+      - key: severity
+        value: high
+      - key: reason
+        value: appsec_escalation
