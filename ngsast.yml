@@ -1,6 +1,6 @@
 ngsast:
 - app:
-    name: shiftleft-config
+    name: sl-java-test
     language: JAVA
     modify-findings:
       - open_redirect_modification_rule
