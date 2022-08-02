@@ -15,6 +15,6 @@ finding-modifications:
       - key: severity
         value: critical
       - key: cvss_31_severity_rating
-      - value: high
+        value: high
       - key: reason
         value: appsec_escalation
