@@ -1,0 +1,20 @@
+ngsast:
+- app:
+    name: sl-java-test
+    language: JAVA
+    modify-findings:
+      - open_redirect_modification_rule
+finding-modifications:
+  open_redirect_modification_rule:
+    filter:
+      category:
+        - Header Injection
+    tags:
+      - key: cvss_score
+        value: 8
+      - key: severity
+        value: critical
+      - key: cvss_31_severity_rating
+        value: high
+      - key: reason
+        value: appsec_escalation
